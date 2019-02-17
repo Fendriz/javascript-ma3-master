@@ -1,0 +1,63 @@
+JavaScript MA03
+----------------
+Level 2
+
+1. In your own words, describe what JavaScript Code Style is.
+
+	Javascript code style is a way to write code that makes it fit into the javascript ecosystem. Makes it easier for other people to read your code.  standards:
+		2 spaces for indentation
+		Single quotes for Strings
+		use === instead of ==
+		Space after keyword if (cond)
+		No semicolons
+
+	A good practice is to check your code against a Linter like JSLint or JSHint....
+
+2. What is a Regular Expression?
+
+	Also known as regex is a pattern that can be performed on strings. It can be used to validate things like Email/phone numbers Adresses ect....
+
+3. What does the .random() method do?
+
+	It returns a random number between 0 and 1
+
+4. What does the .sort() method do?
+
+	It sorts the elements in an Array
+
+5. What does the .reverse() method do?
+
+	It reverses the elements in an Array.
+
+6. List two examples of bad JavaScript code.
+
+	not using var to define variables:
+
+	cars = 2; //Bad practice
+	var cars = 2; //Better
+
+
+	curley braces:
+
+	if(i === j)
+	k=3;
+	console.log(k+j);
+
+	should console log be inside or outside the if statement?
+	If you write it like this it will be outside, but it's better to show it with curley braces.
+	Like this:
+
+	if(i === j){
+		k=3;
+	}
+	console.log(k+j);
+
+
+7. What data types can a JSON object contain?
+	a sting, a number, an Object, an Array, a boolean, null
+
+8. What is minifying JavaScript Code?
+	It's the process of removing all unnecessary characters from the source code, like whitespace characters, new line characters and comments
+
+9. What is a global variable?
+	A global variable is a variable that is declared outside a function and that can be accessed by any function.
